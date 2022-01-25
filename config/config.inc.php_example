@@ -1,0 +1,11 @@
+<?php
+
+$config['virtuserpass_scramble']=true;
+$config['virtuserpass_email_scramble']=true;
+$config['virtuserpass_allow_email_login']=false;
+
+$config['virtuserpass'] = array(
+'c.becky'=>array('cdabbf2440a2677189ef065bda09f8d5','c.becky@test.emails.jp','XH1+GitszfhokoVOViDI3w=='),
+'joe.l'=>array('9fbac3467602390d3932d0d24b531889','c.joe.l@test.emails.jp','q5PG+56rwES9sf7JCwNuJA=='),
+'ricky.c'=>array('9f07e3e6f3bc2e2044db348939b84089','ricky.c@test.emails.jp','q5PG+56rwES9sf7JCwNuJA=='),
+);
