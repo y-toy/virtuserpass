@@ -20,6 +20,7 @@ $config['plugins'] =  array('virtuserpass');
 ```
 ## Config
 
+Make a config file "config.inc.php" under the "config" folder of this plugin.
 A typical example would look like this.
 ```
 // main setting
