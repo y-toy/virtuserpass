@@ -65,10 +65,10 @@ When false, you are not allowed to login with your e-mail address.
 ```
 php ./makeConfigFileFromCSV.php csv-file-path [1|0] [1|0] [1|0]
 ```
-param 1 : a path of your csv file
-param 2 : when set 1, user passowrds will be hashed.
-param 3 : when set 1, e-mail passowrds will be encrypted.
-param 4 : if 0 was set, users can not allow to log in with e-mail addresses.
+param 1 : a path of your csv file<br />
+param 2 : when set 1, user passowrds will be hashed.<br />
+param 3 : when set 1, e-mail passowrds will be encrypted.<br />
+param 4 : if 0 was set, users can not allow to log in with e-mail addresses.<br />
 
 
 ### How to use
@@ -78,4 +78,4 @@ param 4 : if 0 was set, users can not allow to log in with e-mail addresses.
 cd (your roundcube installed folder)/plugins/virtuserpass
 php ./makeConfigFileFromCSV.php your-csv-file-path 1 1 1
 ```
-3. Remove the CSV file for security reasons.
+3. Remove the CSV file or move it to a folder that is not public for security reasons.
