@@ -1,6 +1,8 @@
 # Roundcube virtual users and passwords
 This plugin allows you to login using your favorite username and password to your Roundcube. You don't need to use your email address and password to login.
 
+[Jpapanese](https://blog.gogodiet.net/itsupport/272/2022/01/24/)
+
 ## Install
 1. Place this plugin folder into plugins directory of Roundcube
 2. Add virtuserpass to $config['plugins'] in your Roundcube config
@@ -63,15 +65,15 @@ When false, you are not allowed to login with your e-mail address.
 ```
 php ./makeConfigFileFromCSV.php csv-file-path [1|0] [1|0] [1|0]
 ```
-paramater 1 : a path of your csv file
-paramater 2 : when set 1, user passowrds will be hashed.
-paramater 3 : when set 1, e-mail passowrds will be encrypted.
-paramater 4 : if 0 was set, users can not allow to log in with e-mail addresses.
+param 1 : a path of your csv file
+param 2 : when set 1, user passowrds will be hashed.
+param 3 : when set 1, e-mail passowrds will be encrypted.
+param 4 : if 0 was set, users can not allow to log in with e-mail addresses.
 
 
 ### How to use
 1. Create a CSV file with four columns: user name, password, email address, and the email password. See the sample.csv under the config folder of this plugin.
-2. Run this tool like this. The config file will be made.
+2. Run this tool like below. The config file will be made.
 ```
 cd (your roundcube installed folder)/plugins/virtuserpass
 php ./makeConfigFileFromCSV.php your-csv-file-path 1 1 1
